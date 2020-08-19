@@ -1,0 +1,67 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.block {
+  display: block;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.hover-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+@import "text";
+@import "button";
+@import "dialog";
+
+// Layout
+@import "container";
+@import "viewport";
+@import "z-index";
+@import "flex";
+@import "position";
+
+@import "aspect";
+@import "colors";
+
+// Aesthetic
+@import "elevation";
+@import "border";
+@import "size";
+
+@import "spacing";
